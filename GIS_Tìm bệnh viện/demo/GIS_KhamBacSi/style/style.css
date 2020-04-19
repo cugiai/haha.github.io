@@ -1,0 +1,262 @@
+
+body { height: 100%; margin: 0; padding: 0 ;}
+#wrap{
+	width: 100%;
+	height: 635px;
+}
+#header{
+	width: 100%;
+	height: 10%;
+	background-color:#2E8B57;
+}
+#map_data{
+	width: 100%;
+	height: 90%;
+}
+#left{
+	width: 33%;
+	height: 100%;
+	background-color: #abc;
+	float: left;
+	position: relative;
+}
+#map-canvas {
+	width: 67%;
+	height: 100%;
+	float: left;
+}
+#timduong{
+	width: 90%;
+	height: 50px;
+	background-color: #fff;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+
+	border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+#divmenu1{
+	float: left;
+	width: 10%;
+}
+#divtxttim{
+	float: left;
+	width: 69%;
+	height: 100%
+}
+#divtxttim:focus{
+	border-color: #4d90fe;
+}
+#maps_address{
+	width: 100%;
+	height: 95%;
+	border:0px;
+	font-size: 16px;
+	text-overflow: ellipsis;
+}
+#type-selector {
+color: #fff;
+background-color: #4d90fe;
+padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+font-family: Roboto;
+font-size: 13px;
+font-weight: 300;
+}
+#target {
+width: 345px;
+}
+
+#divSearch{
+	float: left;
+	width: 10%;
+	border-right: solid 1px #abc;
+}
+#divChiDuong{
+	float: left;
+	width: 10%;
+
+}
+#groupToaDo{
+	margin-top: 70px;
+	
+}
+#divtimvitrihientai{
+	float: left;
+
+}
+#divtimvitrihientai:hover{
+	box-shadow:4 3px 2px #000;
+    -webkit-box-shadow:0 3px 2px #000;
+    -moz-box-shadow:0 3px 2px #000;
+}
+.centerLatLng{
+	float: left;
+
+}
+
+#contentChiDuong{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+#rowphuongtien{
+	height: 27%;
+	background-color: #4285F4;
+	padding-top: 5px;
+}
+.phuongtien{
+	width: 50px;
+	height: 50px;
+	float: left;
+	border-radius: 20px;
+	text-align: center;
+    vertical-align: middle;
+}
+.icon{
+	padding-top: 10px;
+	width: 30px;
+	height: 30px; 
+}
+.textAB{
+	width: 75%;
+    height: 40px;
+    margin-left: 40px;
+    border: 0px;
+    border-bottom: solid 1px #fff;
+    background: #4285F4;
+    font-size: 15px;
+
+}
+.textAB::-webkit-input-placeholder {
+   color: #cdf;
+}
+ 
+#huongdan {
+		font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+
+        height: 73%;
+        overflow: auto;
+        background: #fff;
+}
+@media print {
+    #right-panel {
+      float: none;
+      width: auto;
+    }
+}
+#menu{
+  width: 270px;
+  height: 570px;
+  position: absolute;
+  left: 0px;
+  top: 64px;
+  border: 1px solid transparent;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+	background: #fff;
+}
+#rowMenu{
+	border-bottom: 1px solid #abc;
+	width: 235px;
+	height: 60px;
+}
+.marker{
+	width:20px;
+	height:20px;
+	padding-left:15px;
+}
+.marker:hover{
+	width: 25px;
+	height: 25px;
+}
+
+.find{
+	float: left;
+}
+.find:hover{
+	font-size: 14px;
+	color:blue;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+	font-size: 14px;
+	color: #008C5E;
+}
+#right-panel select, #right-panel input {
+    font-size: 13px;
+  }
+
+  #right-panel select {
+    width: 100%;
+  }
+
+  #right-panel i {
+    font-size: 12px;
+  }
+  #right-panel {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 400px;
+    width: 370px;
+    z-index: 5;
+    background: #fff;
+  }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 330px;
+    width:445px;
+    overflow-y: scroll;
+  }
+  li {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  li:nth-child(odd) {
+    background-color: #fcfcfc;
+  }
+
+  #thongTinChiTiet{
+  	position: absolute;
+  	top: 17px;
+  	left: 0px;
+  	background: #fff;
+  	display: none;
+  	overflow-y: scroll;
+  	height: 360px;
+    width:445px;
+  }
+ #timDuongTuDiem{
+ 	position: absolute;
+ 	top: 80px;
+ 	right: 15px;
+ 	display: none;
+ 	border-radius: 30px;
+ 	width: 50px;
+ 	height: 50px;
+ 	background: #fcfcfc;
+ 	text-align: center;
+ }
+
+
